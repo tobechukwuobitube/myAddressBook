@@ -1,0 +1,122 @@
+/* * {
+    border: 1px solid rgb(252, 59, 59)  !important; 
+} */
+
+#main-content {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Underdog', 'Verdana';
+    font-size: 50px;
+}
+
+a { 
+    color: #0068D2; 
+    cursor: pointer; 
+}
+
+a:link, a:visited { 
+    text-decoration: none; 
+    color: #0068D2; 
+}
+
+a:hover, a:active { 
+    text-decoration: underline; 
+    color: #0068D2; 
+}
+
+body { 
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    background-color: #e1e1e1;
+}
+
+#contacts-table { 
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse; 
+    background-color: #fff
+}
+
+#contacts-table, #contacts-table th, #contacts-table td { 
+    padding: 8px 16px; 
+    text-align: left; 
+    border: 0px solid #B9BABE; 
+}
+
+#contacts-table th { 
+    font-weight: bold; 
+    font-size: 14px; 
+    color: #29344B; 
+}
+
+#contacts-table td { 
+    color: #000; 
+}
+
+#contacts-table tr:nth-child(2n) { 
+    background: #E8EDFF; 
+}
+
+#contacts-form {
+    padding: 10px; 
+    margin: 0 auto;
+}
+
+.text input, .button input { 
+    padding: 5px; 
+    margin: 0; 
+    border: 1px solid #ccc; 
+    -moz-border-radius: 2px; 
+    -webkit-border-radius: 2px; 
+    border-radius: 2px; 
+}
+
+#contacts-form .item { 
+    margin: 3px 0; 
+}
+
+#contacts-form label, #contacts-form .field { 
+    display: inline-block; 
+    color: #0C0B07; 
+}
+
+#contacts-form label { 
+    width: 110px; 
+    font-weight: bold; 
+    text-align: right; 
+    color: #666; 
+}
+#contacts-form .text input { 
+    width: 176px; 
+    padding: 3px; 
+}
+
+#contacts-form .button { 
+    display: inline-block; 
+}
+
+#contacts-form .button-wrapper { 
+    padding-left: 113px; 
+}
+
+.button input { 
+    padding: 4px 8px; 
+    color: #fff; 
+    background-color: #fdfdfd; 
+    background: -moz-linear-gradient(#fdfdfd, #e1e1e1); 
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#be0c0c), to(#be0c0c)); 
+}
+
+.button-default input { 
+    font-weight: bold; 
+    color: #fff; 
+    background-color: #0c3868; 
+    background: -moz-linear-gradient(#acc6e1, #0c3868); 
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#0c3868), to(#0c3868)); 
+    border-color: #5b80b2; 
+}

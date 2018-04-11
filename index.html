@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>myAddressBook</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Underdog" rel="stylesheet">
+    <link href="font/Underdog-Regular.ttf" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+            
+        <section id="main-content">
+                
+                <div id="contacts">
+                        <h1>My Contacts</h1>
+    <table id="contacts-table">
+        <tr id="contacts-head">
+            <th>ID</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Phone number</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+
+    <form id="contacts-form">
+        <div class="item text">
+            <label>First name:</label>
+            <div class="field"><input type="text" name="first_name" /></div>
+        </div>
+        <div class="item text">
+            <label>Last name:</label>
+            <div class="field"><input type="text" name="last_name" /></div>
+        </div>
+        <div class="item text">
+                <label>Phone number:</label>
+                <div class="field"><input type="tel" name="phone_number" /></div>
+            </div>
+        <div class="item text">
+            <label>Email:</label>
+            <div class="field"><input type="text" name="email" /></div>
+        </div>
+        <div class="button-wrapper">
+            <div class="item button">
+                <div class="field"><input type="button" id="contacts-op-clear" value="Clear" /></div>
+            </div>
+            <div class="item button button-default">
+                <div class="field"><input type="submit" id="contacts-op-add" value="Add" /></div>
+            </div>
+        </div>
+        <input type="hidden" name="id_entry" value="0" />
+    </form>
+</div>
+</section>
+</main>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
